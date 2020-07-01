@@ -9,9 +9,6 @@ subtractionAndMultiplicationTest();
 subtractionAndDivisonTest();
 allOperatorTest();
 
-
-
-
 function additionTest() {
     testCompute(2, "1+1");
     testCompute(3, "1+1+1");
@@ -56,10 +53,6 @@ function subtractionAndMultiplicationTest() {
     testCompute(-14, "10-2*12");
 }
 
-
-
-
-
 function additionAndDivisonTest() {
     testCompute(1.5, "1+1/2");
     testCompute(16, "10+6/1");
@@ -74,7 +67,7 @@ function subtractionAndDivisonTest() {
 
 
 function allOperatorTest() {
-    testCompute(-12, "1+2-3*10/2");
-    testCompute(-11, "1+3-3*10/2");
-    testCompute(-4, "3-2-3*10/2+10");
+      testCompute(-12, "1+2-3*10/2");
+      testCompute(-11, "1+3-3*10/2");
+      testCompute(-4, "3-2-3*10/2+10");
 }
